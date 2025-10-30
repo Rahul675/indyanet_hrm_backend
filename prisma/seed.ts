@@ -13,19 +13,19 @@ async function main() {
 
   // 🔹 Ensure admin user
   await p.user.upsert({
-    where: { email: 'devanath@indyanet.com' },
+    where: { email: 'vikas@tomertech.com' },
     update: {},
     create: {
-      email: 'devanath@indyanet.com',
+      email: 'vikas@tomertech.com',
       passwordHash: adminPass,
       role: Role.ADMIN,
     },
   });
   await p.user.upsert({
-    where: { email: 'pavithra@indyanet.com' },
+    where: { email: 'escapebybrewklyn@gmail.com' },
     update: {},
     create: {
-      email: 'pavithra@indyanet.com',
+      email: 'escapebybrewklyn@gmail.com',
       passwordHash: adminPass,
       role: Role.ADMIN,
     },

@@ -86,6 +86,7 @@ export class AttendanceService {
    * ✅ Returns all check-in/out records for today (for dashboard display)
    */
   async getTodayAttendance(employeeId: string) {
+    
     if (!employeeId) throw new BadRequestException('Invalid employee');
   
     const startOfDay = new Date();
