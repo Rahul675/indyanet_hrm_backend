@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cmhd2gr2x0004vj7847wa5ebb",
+    "employeeId": "cmh8qp0m70002vj802n8qwzff",
+    "checkInTime": "2025-10-30T06:51:50.925Z",
+    "checkOutTime": "2025-10-30T08:38:08.069Z",
+    "date": "2025-10-30T06:51:50.925Z",
+    "status": "Present",
+    "year": 2025
+  },
+  {
+    "id": "cmhd69i6t0001vje4csf0jxs9",
+    "employeeId": "cmh8qp0m70002vj802n8qwzff",
+    "checkInTime": "2025-10-30T08:38:11.267Z",
+    "checkOutTime": null,
+    "date": "2025-10-30T08:38:11.268Z",
+    "status": "Present",
+    "year": 2025
+  }
+]
